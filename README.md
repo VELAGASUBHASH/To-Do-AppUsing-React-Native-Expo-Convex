@@ -80,32 +80,6 @@ Create a new Convex project.
 
 Copy the Convex deployment URL.
 
-In your app, configure Convex:
-
-import { ConvexProvider, ConvexReactClient } from 'convex/react';
-const convex = new ConvexReactClient("https://YOUR-CONVEX-URL.convex.cloud");
-
-
-Wrap your app with the Convex provider:
-
-<ConvexProvider client={convex}>
-  <App />
-</ConvexProvider>
-
-🗂️ Folder Structure
-📦 todo-app
- ┣ 📂 components
- ┃ ┣ 📜 TaskItem.js
- ┃ ┣ 📜 ProgressBar.js
- ┃ ┗ 📜 StatsCard.js
- ┣ 📂 screens
- ┃ ┣ 📜 ToDoScreen.js
- ┃ ┗ 📜 SettingsScreen.js
- ┣ 📂 convex
- ┃ ┣ 📜 functions.js
- ┣ 📜 App.js
- ┣ 📜 app.config.js
- ┗ 📜 package.json
 
 🖼️ Screenshots
 ![WhatsApp Image 2025-10-26 at 9 53 26 PM](https://github.com/user-attachments/assets/65e30601-7ef3-41a8-9b9f-94ccd9a64172)

@@ -108,4 +108,4 @@ This app was designed to demonstrate how to build a fully functional To-Do Manag
 👨‍💻 Author
 
 Velaga Subhash
-📧 elagasubhash03@gmail.com
+📧 velagasubhash03@gmail.com
